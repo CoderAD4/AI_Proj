@@ -1,10 +1,10 @@
-🧠 AI Stock Trend Predictor — Robust Version
+## 🧠 AI Stock Trend Predictor — Robust Version
 
 This project implements a comprehensive financial dashboard using advanced machine learning models (LSTM and SVM) to predict short-term stock price movements and provide deep explainability through SHAP and LIME.
 
 The application is built using Streamlit, making it easy to interact with and visualize the results directly in a web browser.
 
-✨ Features
+# ✨ Features
 
 Dual-Model Prediction:
 
@@ -24,7 +24,7 @@ Portfolio Simulation: Simple simulation based on the multi-day forecast.
 
 Data Visualization: Displays historical price charts and an overlay of the historical data vs. the multi-day forecast.
 
-🚀 Getting Started
+# 🚀 Getting Started
 
 Follow these steps to set up and run the application locally.
 
@@ -44,13 +44,13 @@ cd AI_Proj
 
 It is highly recommended to use a virtual environment to manage dependencies:
 
-//Create the environment
+#Create the environment
 python -m venv venv
 
-//Activate the environment
-//On Windows PowerShell:
+#Activate the environment
+#On Windows PowerShell:
 .\venv\Scripts\Activate
-//On Linux/macOS or Git Bash:
+#On Linux/macOS or Git Bash:
 source venv/bin/activate
 
 
@@ -72,7 +72,7 @@ streamlit run mainai.py
 
 The application will open automatically in your web browser (usually at http://localhost:8501).
 
-⚙️ Project Architecture
+# ⚙️ Project Architecture
 
 The core of the system uses a dual-model approach optimized for financial time series prediction:
 
@@ -90,7 +90,7 @@ SHAP (LSTM): Uses the Kernel Explainer approach (for stability) to show the aggr
 
 LIME (SVM): Generates a local linear model to explain the final classification decision.
 
-⚠️ Important Note on Stability
+# ⚠️ Important Note on Stability
 
 This project uses advanced machine learning techniques (TensorFlow/Keras and SHAP) in a rapidly re-running environment (Streamlit). If you encounter the LookupError: gradient registry has no entry for: shap_DivNoNan error when changing parameters:
 
@@ -98,6 +98,6 @@ The code contains internal fixes (localizing SHAP imports and using tf.keras.bac
 
 If it persists, a full terminal restart is usually required, as the issue stems from deep library conflicts.
 
-🤝 Contribution and Disclaimer
+# 🤝 Contribution and Disclaimer
 
 This project is a prototype for educational and demonstrative purposes only. It is NOT financial advice. Stock market predictions are inherently uncertain, and historical performance is not indicative of future results.
