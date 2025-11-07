@@ -44,14 +44,14 @@ cd AI_Proj
 
 It is highly recommended to use a virtual environment to manage dependencies:
 
-# Create the environment
+//Create the environment
 python -m venv venv
 
-# Activate the environment
-# On Windows PowerShell:
+//Activate the environment
+//On Windows PowerShell:
 .\venv\Scripts\Activate
-# On Linux/macOS or Git Bash:
-# source venv/bin/activate
+//On Linux/macOS or Git Bash:
+source venv/bin/activate
 
 
 3. Install Dependencies
