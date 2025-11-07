@@ -1,0 +1,29 @@
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+
+# --- Python Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*~
+
+# --- Machine Learning & Data ---
+# Ignore model checkpoints, saved weights, and cache files
+*.h5
+*.weights.h5
+*.joblib
+*.pkl
+models/
+cache/
+
+# Ignore logs and temporary files
+*.log
+/tmp/
+
+# --- OS & IDE Files (Windows/VS Code) ---
+.DS_Store
+Thumbs.db
+.vscode/
